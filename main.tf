@@ -15,7 +15,7 @@ terraform {
         bucket = "terraform-bucket-demo1"
         region = "ap-south-1"
         key = "terraform.tfstate"
-        dynamodb_table = "state-lock"
+        
 
     }
 }
